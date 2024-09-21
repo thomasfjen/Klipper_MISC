@@ -1,4 +1,4 @@
-# SW_MISC
+# Sensorless Homing on SW
 
 Sensorless homing for XZ Kinematics:
 https://github.com/thomasfjen/SW_MISC/blob/main/homing_sw.cfg
