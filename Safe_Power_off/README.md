@@ -52,6 +52,6 @@ gcode:
 </p>
 
 <p align="center">
-<img src="./screen/then_do.png">
+<img src="./screens/then_do.png">
 </p>
 
