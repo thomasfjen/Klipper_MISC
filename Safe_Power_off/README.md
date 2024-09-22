@@ -46,6 +46,7 @@ gcode:
 
 * Add Automation to Home Assistant:
 	- Use the Gui to add the Automation. When the MQTT Payload is received add a delay so the pi can safely shutdown
+ 	- Replace voron0 from the screen below with your hostname
 
 <p align="center">
 <img src="./screens/when.png">
