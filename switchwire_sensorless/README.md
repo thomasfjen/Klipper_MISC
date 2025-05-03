@@ -14,3 +14,6 @@ After the initial Z hop to not scrape the bed while homing the stepper drivers n
 Include the [homing_sw.cfg](homing_sw.cfg) in your printer.cfg. 
 Remove any other [safe_z_home] or [homing_override] section, it works with klicky_macros out-of-the-box.
 Edit the X and Y Coordinates for your desired Z home position, see comment in the config.
+The default home current for both X and Y is 0.49 amps. You can adjust the homing current for each homing move  by editing the value in this line:
+
+```{% set HOME_CURRENT = 0.49 %}```
