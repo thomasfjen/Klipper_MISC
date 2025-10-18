@@ -10,7 +10,7 @@
 3. Download the `shutdown_delay.sh` file using the command below:
 
     ```bash
-    https://github.com/thomasfjen/Klipper_MISC/blob/main/safe_power_off_tasmota/shutdown_delay.sh
+    wget https://github.com/thomasfjen/Klipper_MISC/blob/main/safe_power_off_tasmota/shutdown_delay.sh
 
 4. Change the permission so the script can be executed
     ``` bash
@@ -35,4 +35,4 @@
         _TASMOTA_SHUTDOWN
         {action_call_remote_method("shutdown_machine")}
 
-7. DONE! If you call the `Shutdown` a shutdown withh delay request will be send to the Tasmota plug, after that the pi shuts down
+7. DONE! If you call the `Shutdown` a shutdown with delay request will be send to the Tasmota plug, after that the pi shuts down
